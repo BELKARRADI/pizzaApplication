@@ -1,0 +1,44 @@
+<!-- res/layout/custom_list_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- ImageView pour l'image ronde -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/pizza1"
+        />
+
+
+    <TextView
+        android:id="@+id/titleProduit"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:text="Titre de l'élément"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/idP"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/flesh1" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<!-- res/drawable/circle_shape.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#FFFF"/> <!-- Couleur de fond du cercle -->
+    <size
+        android:width="72dp"
+        android:height="72dp" /> <!-- Dimensions du cercle (ajustez selon vos besoins) -->
+</shape>

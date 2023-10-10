@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/pizza1"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_marginStart="30dp"
+
+            android:id="@+id/titleProduit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:text="Titre"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+
+            android:textStyle="bold"
+            android:id="@+id/id2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:text="Description :"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/descriptionProduit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:text="disc"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/id3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:text="Ingredients :"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:text="ingred"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/id1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:text="Preparation :"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/preparation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:text="prepa"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
