@@ -1,7 +1,7 @@
 # pizzaApplication
 #Vidéo démonstrative. 
 
-https://github.com/BELKARRADI/pizzaApplication/assets/125222396/b87aaf26-9a54-4341-a006-a6f069789733
+https://github.com/BELKARRADI/pizzaApplication/assets/125222396/287c2ddd-15b9-48f2-a80d-179fa5b51f95
 
 #Quelques captures.
 
